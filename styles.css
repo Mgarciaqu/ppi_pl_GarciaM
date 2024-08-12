@@ -1,13 +1,16 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #000;
     color: #fff;
     background-position: center;
+}
+ 
+.fondo{
+    
 }
 
 header {
