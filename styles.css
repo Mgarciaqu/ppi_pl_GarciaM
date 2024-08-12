@@ -10,7 +10,7 @@ body {
 }
  
 .imagen-contenedor{
-  max-width: 100%; /* O usa 'max-width: 100%' si no quieres que la imagen se estire más allá de su tamaño original */
+  max-width: 80%; /* O usa 'max-width: 100%' si no quieres que la imagen se estire más allá de su tamaño original */
   margin: 20px; /* Ajusta el valor según tus necesidades */
   height: auto; /* Mantiene la proporción de la imagen */
   border: 2px solid #000; /* Ajusta el color y el grosor del borde según tu diseño */
