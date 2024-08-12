@@ -14,14 +14,21 @@ Características de La Ruta de los Shots
 **Pedidos directos:** Los clientes pueden realizar sus pedidos directamente desde la página, sin necesidad de esperar a un mesero.
 
 **Pago rápido:** Integración de un sistema de pago mediante QR que permite a los clientes pagar su cuenta de manera rápida y segura.
+
 **Reservas de mesas:** Funcionalidad para que los usuarios puedan reservar mesas en momentos de alta demanda.
+
 **Diseño responsivo:** La interfaz está optimizada para dispositivos móviles, facilitando su uso desde smartphones y tabletas.
 
 ## Uso de Tecnologías en nuestra página web de licores
+
 **HTML:** Estructura la página web, permitiendo la organización del contenido de manera lógica y semántica.
+
 **CSS:** Se utiliza para estilizar la interfaz, asegurando que la presentación visual sea atractiva y coherente.
+
 **JavaScript:** Agrega interactividad a la página, permitiendo una experiencia de usuario más dinámica y fluida.
+
 ## Librerías y Frameworks
+
 **Bootstrap (opcional):** Facilita la creación de una interfaz responsiva y moderna con componentes predefinidos.
 
 
