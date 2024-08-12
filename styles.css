@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #000;
     color: #fff;
 }
@@ -10,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #111;
+    background-color: rgba(17, 17, 17, 0.8); /* Fondo semitransparente */
 }
 
 .logo {
@@ -49,4 +53,6 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
 }
