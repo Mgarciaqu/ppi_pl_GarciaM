@@ -10,7 +10,9 @@ La Ruta de los Shots se crea para mejorar la experiencia tanto de los clientes c
 Características de La Ruta de los Shots
 
 **Exploración de productos:** Los usuarios pueden explorar una amplia gama de licores disponibles en el bar.
+
 **Pedidos directos:** Los clientes pueden realizar sus pedidos directamente desde la página, sin necesidad de esperar a un mesero.
+
 **Pago rápido:** Integración de un sistema de pago mediante QR que permite a los clientes pagar su cuenta de manera rápida y segura.
 **Reservas de mesas:** Funcionalidad para que los usuarios puedan reservar mesas en momentos de alta demanda.
 **Diseño responsivo:** La interfaz está optimizada para dispositivos móviles, facilitando su uso desde smartphones y tabletas.
@@ -22,10 +24,12 @@ Características de La Ruta de los Shots
 ## Librerías y Frameworks
 **Bootstrap (opcional):** Facilita la creación de una interfaz responsiva y moderna con componentes predefinidos.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/800px-WhatsApp.svg.png" width="50" height="50">
 
-Diseñado por:
-Michael Garcia Quincos
-Estudiante de Ingeniería de sistemas de la Universidad Nacional de Colombia
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" width="50" height="50"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png" width="50" height="50">
 
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/800px-WhatsApp.svg.png" width="50" height="50">](https://wa.me/+573204504857)
+## Diseñado por:
+  ## Michael Garcia Quincos
+  
+
+ **Estudiante de Ingeniería de sistemas de  la Universidad Nacional de Colombia**
+ [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" width="50" height="50">](https://github.com/mgarciaqu)      [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png" width="50" height="50">](mailto:maicolgarciaquincos@gmail.com)
