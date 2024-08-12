@@ -19,8 +19,8 @@ header {
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
+    width: 100px;  /* Incrementa el ancho de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
     margin-right: 10px;
 }
 
