@@ -10,7 +10,17 @@ body {
 }
  
 .fondo{
-    
+    /* Ajustar el tamaño de la imagen */
+  width: 100%; /* O usa 'max-width: 100%' si no quieres que la imagen se estire más allá de su tamaño original */
+
+  /* Márgenes alrededor de la imagen */
+  margin: 20px; /* Ajusta el valor según tus necesidades */
+
+  /* Opcional: ajusta la altura */
+  height: auto; /* Mantiene la proporción de la imagen */
+
+  /* Opcional: ajuste de borde */
+  border: 2px solid #000; /* Ajusta el color y el grosor del borde según tu diseño */
 }
 
 header {
