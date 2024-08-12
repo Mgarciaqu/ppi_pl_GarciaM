@@ -9,7 +9,7 @@ La Ruta de los Shots es una plataforma en línea que sirve tanto para la venta d
 La Ruta de los Shots se crea para mejorar la experiencia tanto de los clientes como del personal del bar. Al centralizar el proceso de pedido, pago y reserva, se busca reducir los costos operativos, agilizar el servicio, y mejorar la satisfacción del cliente. Es una solución innovadora para bares que desean optimizar su funcionamiento y ofrecer una experiencia moderna y eficiente a sus clientes.
 Características de La Ruta de los Shots
 
-###Exploración de productos: Los usuarios pueden explorar una amplia gama de licores disponibles en el bar.
+**Exploración de productos:** Los usuarios pueden explorar una amplia gama de licores disponibles en el bar.
 Pedidos directos: Los clientes pueden realizar sus pedidos directamente desde la página, sin necesidad de esperar a un mesero.
 Pago rápido: Integración de un sistema de pago mediante QR que permite a los clientes pagar su cuenta de manera rápida y segura.
 Reservas de mesas: Funcionalidad para que los usuarios puedan reservar mesas en momentos de alta demanda.
