@@ -1,214 +1,112 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio | Michael Garcia Quincos">
-   
-    <title>Michael | Ingeniero de Sistemas</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio</title>
 
-    <!-- Librerías -->
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- AOS (Animate On Scroll) CSS -->
     <link href="aos/aos.css" rel="stylesheet">
-    <!-- Hojas de estilo -->
+
+    <!-- Loader CSS -->
     <link rel="stylesheet" href="stylesheet/loader.css">
+
+    <!-- Estilos principales -->
     <link rel="stylesheet" id="fileCss" href="stylesheet/index.css">
+
+    <!-- Estilos para tablet -->
     <link rel="stylesheet" href="stylesheet/tablet.css" media="screen and (min-width: 760px)">
+
+    <!-- Estilos para desktop -->
     <link rel="stylesheet" href="stylesheet/desktop.css" media="screen and (min-width: 980px)">
 </head>
 
 <body>
-    <div class="tema-color">
-        <button class="open-panel" onclick="activarPanel()">Colores</button>
-        <div class="cont-colores">
-            <button onclick="grey()">1</button>
-            <button onclick="red()">2</button>
-            <button onclick="yellow()">3</button>
-        </div>
+    <!-- Loader -->
+    <div class="loader">
+        <img src="images/loader.gif" alt="Loading...">
     </div>
 
-    <!--Cargando-->
-    <div class="container--loader">
-        <div class="loader"></div>
-    </div>
+    <!-- Contenido Principal -->
+    <div id="content" style="display: none;">
+        <!-- Header -->
+        <header>
+            <img src="images/logo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!--Cabeza-->
-    <header class="header">
-        <img src="images/R.jpg" alt="Logo Portafolio" class="logo__header">
-
-        <nav class="nav_menu not-active">
-            <a href="#home" class="active">Home</a>
-            <a href="#sobreMi">Sobre mí</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#formacion">Formación</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
-
-    <!--Main-->
-    <main>
-        <!-- Home -->
-        <section class="home">
-            <picture class="container_image-home">
-                <img class="image_home" src="images/perfil.png" alt="Michael Garcia Quincos" data-aos="zoom-in" data-aos-duration="3000">
-            </picture>
-            
-            <div class="home_info" id="home">
-                <div class="container_text-info">
-                    <p class="home_text-1" data-aos="zoom-in">Hola! Soy</p>
-                    <p class="home_text-2" data-aos="zoom-in">Michael Garcia Quincos</p>
-                </div>
-
-                <div>
-                    <p class="home_text-3 text-type" data-aos="zoom-in">Ingeniero de Sistemas</p>
-                </div>
-
-                <div class="container_parrafo-info" data-aos="zoom-in">
-                    <p>Estudiante de octavo semestre de Ingeniería de Sistemas en la Universidad Nacional de Colombia con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas. Con experiencia práctica en el desarrollo de aplicaciones web utilizando Django para el backend y React para el frontend, así como en la gestión de bases de datos y la implementación de soluciones en redes y telecomunicaciones.</p>
-                </div>
-
-                <div class="container_button">
-                    <a href="#contacto">
-                        <button class="contact_button" data-aos="zoom-in">Contacto</button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="links">
-                <a href="https://www.facebook.com/profile.php?id=100071066110150" target="_blank">
-                    <img src="images/facebook.png" alt="Facebook" class="icon-facebook">
-                </a>
-                <a href="https://github.com" target="_blank">
-                    <img src="images/github 3.png" alt="GitHub" class="icon-github">
-                </a>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="Instagram" class="icon-instagram">
-                </a>
-            </div>
-        </section>
-
-        <!-- Sobre mí -->
-        <section class="sobreMi" id="sobreMi">
+        <!-- Sección Sobre mí -->
+        <section id="about" data-aos="fade-up">
             <h1>Sobre mí</h1>
+            <p>Hola, soy [Tu Nombre], un desarrollador web apasionado por crear experiencias web excepcionales.</p>
+            <img src="images/profile.jpg" alt="Perfil">
+        </section>
 
-            <div class="container_content-sobreMi">
-                <div class="container_texto-sobreMi">
-                    <span class="title_sobreMi" data-aos="fade-left">Michael Garcia Quincos</span>
-                    <span class="texto_sobreMi" data-aos="fade-left">Soy estudiante de Ingeniería de Sistemas en la Universidad Nacional de Colombia con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas. Busco aplicar y expandir mis conocimientos en un entorno profesional, contribuyendo activamente al éxito de la organización.</span>
-                </div>
-    
-                <picture class="container_image-sobreMi">
-                    <img class="image_sobreMi" src="images/perfil.png" alt="Michael Garcia Quincos" data-aos="fade-right">
-                </picture>
+        <!-- Sección Proyectos -->
+        <section id="projects" data-aos="fade-up">
+            <h2>Proyectos</h2>
+            <div class="project" data-aos="fade-up">
+                <img src="images/project1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </div>
+            <div class="project" data-aos="fade-up">
+                <img src="images/project2.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
             </div>
         </section>
 
-        <!-- Habilidades -->
-        <section class="habilidades" id="habilidades">
-            <h1>Habilidades</h1>
-
-            <img src="images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
-            <img src="images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
-
-            <div class="cards_container--habilidades">
-                <div class="cards--habilidades">
-                    <img src="images/icon-python.png" alt="Python" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>Python</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-java.png" alt="Java" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>Java</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-cpp.png" alt="C++" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>C++</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-php.png" alt="PHP" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>PHP</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-js.png" alt="JavaScript" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>JavaScript</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-django.png" alt="Django" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>Django</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-postgresql.png" alt="PostgreSQL" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>PostgreSQL</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-mysql.png" alt="MySQL" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>MySQL</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-git.png" alt="Git" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>Git</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-html-css.png" alt="HTML/CSS" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>HTML/CSS</p>
-                </div>
-                <div class="cards--habilidades">
-                    <img src="images/icon-sql.png" alt="SQL" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>SQL</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Formación -->
-        <section class="formacion" id="formacion">
-            <h1>Formación</h1>
-
-            <div class="cards_container--formacion">
-                <div class="cards--formacion" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <img class="logo-un" src="images/un-logo.png" alt="Logo - Universidad Nacional de Colombia">
-                    <div class="parrafos-cards">
-                        <span class="title_formacion">Ingeniería de Sistemas</span>
-                        <span class="sub-title_formacion">Universidad Nacional de Colombia</span>
-                        <span class="texto_formacion">2020 - Actualidad</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Proyectos -->
-        <section class="proyectos" id="proyectos">
-            <h1>Proyectos</h1>
-            <div class="container_proyectos">
-                <a href="#" class="card_proyecto" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <img src="images/proyecto1.png" alt="Proyecto 1" class="imagen_proyecto">
-                    <div class="info_proyecto">
-                        <span class="title_proyecto">Proyecto 1</span>
-                        <span class="texto_proyecto">Descripción del proyecto 1.</span>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <!-- Contacto -->
-        <section class="contacto" id="contacto">
-            <h1>Contacto</h1>
-            <form action="https://formsubmit.co/tu-correo" method="POST" class="form_contacto">
-                <div class="form_container">
-                    <input type="text" name="name" placeholder="Nombre Completo" required>
-                    <input type="email" name="email" placeholder="Correo Electrónico" required>
-                </div>
-                <textarea name="message" placeholder="Mensaje" required></textarea>
+        <!-- Sección Contacto -->
+        <section id="contact" data-aos="fade-up">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message"></textarea>
+                
                 <button type="submit">Enviar</button>
             </form>
         </section>
-    </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+        </footer>
+    </div>
 
     <!-- Scripts -->
+    <script src="js/loader.js"></script>
     <script src="js/main.js"></script>
     <script src="aos/aos.js"></script>
     <script>
         AOS.init();
+
+        // Simulación de la carga para el loader
+        window.addEventListener('load', function () {
+            const loader = document.querySelector('.loader');
+            const content = document.getElementById('content');
+
+            loader.style.display = 'none';
+            content.style.display = 'block';
+        });
     </script>
 </body>
-</html>
 
+</html>
