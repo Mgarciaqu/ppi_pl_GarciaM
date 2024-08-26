@@ -1,45 +1,42 @@
-# La Ruta de los Shots
+# Michael Garcia Quincos - Ingeniero de Sistemas Freelance
 
-¡Bienvenido a La Ruta de los Shots! Este repositorio contiene el código fuente para una página de ventas de licores y gestión de un bar, desarrollada con tecnologías web modernas, incluyendo HTML, CSS, y JavaScript.
+## Información de Contacto
+- **Ubicación**: Medellín, Colombia
+- **Correo Electrónico**: [mgarciaqu@unal.edu.co](mailto:mgarciaqu@unal.edu.co)
+- **WhatsApp**: [![WhatsApp](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/800px-WhatsApp.svg.png)](https://wa.me/+573204504857)
 
-## Descripción del Proyecto
-La Ruta de los Shots es una plataforma en línea que sirve tanto para la venta de licores como para la gestión de un bar presencial. Los usuarios pueden explorar, pedir, y pagar por sus bebidas de manera directa desde sus dispositivos móviles, ahorrando tiempo y reduciendo la necesidad de interacción con el personal del bar. Además, la plataforma ofrece la posibilidad de reservar mesas en momentos de alta demanda.
+## Perfil Profesional
+Soy estudiante de octavo semestre de Ingeniería de Sistemas en la Universidad Nacional de Colombia con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas. Mi experiencia práctica incluye el desarrollo de aplicaciones web utilizando **Django** para el backend y **React** para el frontend, así como la gestión de bases de datos y la implementación de soluciones en redes y telecomunicaciones. Apasionado por la tecnología y la resolución de problemas complejos, estoy buscando una oportunidad para aplicar y expandir mis conocimientos en un entorno profesional, contribuyendo activamente al éxito de la organización.
 
-## ¿Por qué?
-La Ruta de los Shots se crea para mejorar la experiencia tanto de los clientes como del personal del bar. Al centralizar el proceso de pedido, pago y reserva, se busca reducir los costos operativos, agilizar el servicio, y mejorar la satisfacción del cliente. Es una solución innovadora para bares que desean optimizar su funcionamiento y ofrecer una experiencia moderna y eficiente a sus clientes.
-Características de La Ruta de los Shots
+## Habilidades Interpersonales
+- **Comunicación Efectiva**: Hábil en la comunicación clara y precisa, asegurando que todos los miembros del equipo estén alineados con los objetivos y plazos del proyecto.
+- **Trabajo en Equipo**: Experiencia colaborando en proyectos multidisciplinarios, facilitando la coordinación entre diferentes áreas técnicas y no técnicas.
+- **Resolución de Conflictos**: Proactivo en la resolución de conflictos y adaptación a cambios dentro del entorno de trabajo.
 
-**Exploración de productos:** Los usuarios pueden explorar una amplia gama de licores disponibles en el bar.
+## Educación
+**Ingeniería de Sistemas**  
+Universidad Nacional de Colombia – Medellín  
+(Octavo Semestre)  
+- Focalización en desarrollo de software, redes y telecomunicaciones, bases de datos, y ciberseguridad.
+- Participación activa en proyectos de investigación y desarrollo tecnológico con un enfoque en la optimización de sistemas y la mejora continua de procesos.
 
-**Pedidos directos:** Los clientes pueden realizar sus pedidos directamente desde la página, sin necesidad de esperar a un mesero.
+## Habilidades Técnicas
+- **Lenguajes de Programación**: Python, Java, C++, PHP, JavaScript
+- **Frameworks**: Django, React
+- **Bases de Datos**: PostgreSQL, MySQL
+- **Herramientas y Tecnologías**: Git, SQL, HTML/CSS
+- **Redes y Telecomunicaciones**: Configuración de redes, protocolos de seguridad
+- **Sistemas Operativos**: Windows, Linux
+- **Metodologías de Trabajo**: Kanban, Agile, Scrum
 
-**Pago rápido:** Integración de un sistema de pago mediante QR que permite a los clientes pagar su cuenta de manera rápida y segura.
+## Idiomas
+- **Español**: Nativo
+- **Inglés**: Intermedio
 
-**Reservas de mesas:** Funcionalidad para que los usuarios puedan reservar mesas en momentos de alta demanda.
-
-**Diseño responsivo:** La interfaz está optimizada para dispositivos móviles, facilitando su uso desde smartphones y tabletas.
-
-## Uso de Tecnologías en nuestra página web de licores
-
-**HTML:** Estructura la página web, permitiendo la organización del contenido de manera lógica y semántica.
-
-**CSS:** Se utiliza para estilizar la interfaz, asegurando que la presentación visual sea atractiva y coherente.
-
-**JavaScript:** Agrega interactividad a la página, permitiendo una experiencia de usuario más dinámica y fluida.
-
-## Librerías y Frameworks
-
-**Bootstrap (opcional):** Facilita la creación de una interfaz responsiva y moderna con componentes predefinidos.
-
-
-
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/800px-WhatsApp.svg.png" width="50" height="50">](https://wa.me/+573204504857)
 ## Diseñado por:
-## Diseñado por:
-## Michael Garcia Quincos
+**Michael Garcia Quincos**  
+Estudiante de Ingeniería de Sistemas de la Universidad Nacional de Colombia
 
-**Estudiante de Ingeniería de sistemas de la Universidad Nacional de Colombia**
-
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" width="50" height="50">](https://github.com/mgarciaqu)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png" width="50" height="50">](mailto:maicolgarciaquincos@gmail.com)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" width="50" height="50">](https://www.linkedin.com/in/michael-garcia-quincos)
+[![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png)](https://github.com/mgarciaqu)  
+[![Gmail](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png)](mailto:maicolgarciaquincos@gmail.com)  
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/michael-garcia-quincos-579355324)
