@@ -1,6 +1,5 @@
 # Michael Garcia Quincos - Ingeniero de Sistemas Freelance
 
-![Header Image](https://your-image-url.com/header-image.png) <!-- Opcional: Imagen de cabecera para un toque profesional -->
 
 ## 👋 Bienvenido a mi perfil
 
@@ -40,8 +39,11 @@ Universidad Nacional de Colombia – Medellín
 - **Inglés**: Intermedio
 
 ## 🚀 Proyectos Destacados
-- **[Nombre del Proyecto 1]**: Breve descripción del proyecto y tu rol en él.
-- **[Nombre del Proyecto 2]**: Breve descripción del proyecto y tu rol en él.
+En este repositorio hallarás mis proyectos más recientes:
+## 📂 Repositorio
+
+[![Repositorio en GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/Mgarciaqu/ppi_pl_GarciaM)
+
 
 ## 📬 Contacto
 Puedes contactarme a través de los siguientes enlaces:
