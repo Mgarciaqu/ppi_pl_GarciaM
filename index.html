@@ -5,27 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio | Michael Garcia Quincos">
-    <title>Michael | Ingeniero de Sistemas e Informática</title>
+   
+    <title>Michael | Ingeniero de Sistemas</title>
 
     <!-- Librerías -->
-    <link rel="stylesheet" href="aos/aos.css">
-
+    <link href="aos/aos.css" rel="stylesheet">
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="stylesheet/loader.css">
-    <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" id="fileCss" href="stylesheet/index.css">
     <link rel="stylesheet" href="stylesheet/tablet.css" media="screen and (min-width: 760px)">
     <link rel="stylesheet" href="stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
 </head>
 
 <body>
-    <!-- Cargando -->
+    <div class="tema-color">
+    <button class="open-panel" onclick="activarPanel()">Colores</button>
+    <div class="cont-colores">
+        <button onclick="grey()">1</button>
+        <button onclick="red()">2</button>
+        <button onclick="yellow()">3</button>
+    </div>
+    </div>
+
+    <!--Cargando-->
     <div class="container--loader">
         <div class="loader"></div>
     </div>
 
-    <!-- Cabeza -->
+    <!--Cabeza-->
     <header class="header">
         <img src="images/R.jpg" alt="Logo Portafolio" class="logo__header">
+
         <nav class="nav_menu not-active">
             <a href="#home" class="active">Home</a>
             <a href="#sobreMi">Sobre mí</a>
@@ -36,7 +47,7 @@
         </nav>
     </header>
 
-    <!-- Main -->
+    <!--Main-->
     <main>
         <!-- Home -->
         <section class="home">
@@ -51,11 +62,11 @@
                 </div>
 
                 <div>
-                    <p class="home_text-3 text-type" data-aos="zoom-in">Ingeniero de Sistemas e Informática</p>
+                    <p class="home_text-3 text-type" data-aos="zoom-in">Ingeniero de Sistemas</p>
                 </div>
 
                 <div class="container_parrafo-info" data-aos="zoom-in">
-                    <p>Ingeniero de Sistemas con una sólida formación en desarrollo de software, análisis de datos, y administración de sistemas. Experiencia en el desarrollo de aplicaciones web utilizando Django para el backend y React para el frontend, así como en la gestión de bases de datos y la implementación de soluciones en redes y telecomunicaciones.</p>
+                    <p>Estudiante de octavo semestre de Ingeniería de Sistemas en la Universidad Nacional de Colombia con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas. Con experiencia práctica en el desarrollo de aplicaciones web utilizando Django para el backend y React para el frontend, así como en la gestión de bases de datos y la implementación de soluciones en redes y telecomunicaciones.</p>
                 </div>
 
                 <div class="container_button">
@@ -85,7 +96,7 @@
             <div class="container_content-sobreMi">
                 <div class="container_texto-sobreMi">
                     <span class="title_sobreMi" data-aos="fade-left">Michael Garcia Quincos</span>
-                    <span class="texto_sobreMi" data-aos="fade-left">Soy un apasionado por la tecnología y la innovación, con habilidades en programación, análisis de datos y administración de sistemas. Mi objetivo es aplicar mis conocimientos para crear soluciones que mejoren la vida de las personas y resuelvan problemas complejos en el mundo digital.</span>
+                    <span class="texto_sobreMi" data-aos="fade-left">Soy estudiante de Ingeniería de Sistemas en la Universidad Nacional de Colombia con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas. Busco aplicar y expandir mis conocimientos en un entorno profesional, contribuyendo activamente al éxito de la organización.</span>
                 </div>
     
                 <picture class="container_image-sobreMi">
@@ -103,38 +114,52 @@
 
             <div class="cards_container--habilidades">
                 <div class="cards--habilidades">
-                    <img src="images/icon-html.png" alt="HTML" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>HTML</p>
+                    <img src="images/icon-python.png" alt="Python" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>Python</p>
                 </div>
-                
                 <div class="cards--habilidades">
-                    <img src="images/icon-css.png" alt="CSS" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>CSS</p>
+                    <img src="images/icon-java.png" alt="Java" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>Java</p>
                 </div>
-
+                <div class="cards--habilidades">
+                    <img src="images/icon-cpp.png" alt="C++" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>C++</p>
+                </div>
+                <div class="cards--habilidades">
+                    <img src="images/icon-php.png" alt="PHP" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>PHP</p>
+                </div>
                 <div class="cards--habilidades">
                     <img src="images/icon-js.png" alt="JavaScript" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <p>JavaScript</p>
                 </div>
-
                 <div class="cards--habilidades">
-                    <img src="images/icon-python.png" alt="Python" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>Python</p>
+                    <img src="images/icon-django.png" alt="Django" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>Django</p>
                 </div>
-                
                 <div class="cards--habilidades">
-                    <img src="images/icon-trello.png" alt="Trello" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <p>Trello</p>
+                    <img src="images/icon-react.png" alt="React" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>React</p>
                 </div>
-
                 <div class="cards--habilidades">
-                    <img src="images/icon-github-hab.png" alt="GitHub" data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
-                    <p>GitHub</p>
+                    <img src="images/icon-postgresql.png" alt="PostgreSQL" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>PostgreSQL</p>
                 </div>
-
+                <div class="cards--habilidades">
+                    <img src="images/icon-mysql.png" alt="MySQL" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>MySQL</p>
+                </div>
                 <div class="cards--habilidades">
                     <img src="images/icon-git.png" alt="Git" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <p>Git</p>
+                </div>
+                <div class="cards--habilidades">
+                    <img src="images/icon-html-css.png" alt="HTML/CSS" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>HTML/CSS</p>
+                </div>
+                <div class="cards--habilidades">
+                    <img src="images/icon-sql.png" alt="SQL" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>SQL</p>
                 </div>
             </div>
         </section>
@@ -145,60 +170,13 @@
 
             <div class="cards_container--formacion">
                 <div class="cards--formacion" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <img class="logo-azure" src="images/azure.png" alt="Logo - Microsoft Azure">
+                    <img class="logo-un" src="images/un-logo.png" alt="Logo - Universidad Nacional de Colombia">
                     <div class="container_texto--formacion">
-                        <p>Microsoft Azure</p>
-                        <p>2022 - 2022</p>
-                    </div>
-                </div>
-
-                <div class="cards--formacion" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <img class="logo-sena" src="images/sena-logo.png" alt="Logo - SENA">
-                    <div class="container_texto--formacion">
-                        <p>Ingeniería de Sistemas e Informática</p>
-                        <p>2022 - En curso</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Proyectos -->
-        <section class="proyectos" id="proyectos">
-            <h1>Proyectos</h1>
-
-            <img src="images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
-            <img src="images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
-
-            <div class="cards_container--proyectos" data-aos="flip-down" data-aos-duration="2000">
-                <div class="cards--proyectos">
-                    <div class="container_imgCard--proyectos">
-                        <img src="images/Group 2.png" alt="Proyecto: Tomando tu mano">
-                    </div>
-
-                    <div class="container_textCard--proyectos">
-                        <h2>Tomando tu mano</h2>
-                        <p>Una página web donde el usuario puede visualizar fundaciones reconocidas, adoptar y dar en adopción animales, con un sistema muy estructurado.</p>
-                    </div>
-                    <div class="container_btn--proyectos">
-                        <a href="https://github.com" target="_blank">
-                            <button class="btn_proyectos">Ver más</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="cards--proyectos">
-                    <div class="container_imgCard--proyectos">
-                        <img src="images/Group 2.png" alt="Proyecto: Juego de memoria">
-                    </div>
-
-                    <div class="container_textCard--proyectos">
-                        <h2>Juego de memoria</h2>
-                        <p>Un juego didáctico con fines de enseñar acerca de la cultura colombiana mediante pares de imágenes a los jugadores.</p>
-                    </div>
-                    <div class="container_btn--proyectos">
-                        <a href="https://github.com" target="_blank">
-                            <button class="btn_proyectos">Ver más</button>
-                        </a>
+                        <h2>Ingeniería de Sistemas</h2>
+                        <h3>Universidad Nacional de Colombia – Medellín</h3>
+                        <p>(Octavo Semestre)</p>
+                        <p>Focalización en áreas como desarrollo de software, redes y telecomunicaciones, bases de datos, y ciberseguridad.</p>
+                        <p>Participación activa en proyectos de investigación y desarrollo tecnológico, con un enfoque en la optimización de sistemas y la mejora continua de procesos.</p>
                     </div>
                 </div>
             </div>
@@ -208,42 +186,35 @@
         <section class="contacto" id="contacto">
             <h1>Contacto</h1>
 
-            <div class="cards_container--contacto">
-                <div class="cards--contacto">
-                    <img src="images/telefono.png" alt="Teléfono">
-                    <div>
-                        <p>Teléfono</p>
-                        <p>+57 123 456 7890</p>
-                    </div>
-                </div>
-                <div class="cards--contacto">
-                    <img src="images/email.png" alt="Email">
-                    <div>
-                        <p>Email</p>
-                        <p>michael.garcia@example.com</p>
-                    </div>
-                </div>
-                <div class="cards--contacto">
-                    <img src="images/ubicacion.png" alt="Ubicación">
-                    <div>
-                        <p>Ubicación</p>
-                        <p>Bogotá, Colombia</p>
-                    </div>
-                </div>
+            <div class="contacto_container--form" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <form action="">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 Michael Garcia Quincos. Todos los derechos reservados.</p>
+    <!-- Pie de página -->
+    <footer>
+        <p>Michael Garcia Quincos &copy; 2024</p>
     </footer>
 
-    <!-- Scripts -->
-    <script src="aos/aos.js"></script>
+    <!-- Librerías -->
+    <script src="js/loader.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
-"stylesheet/index.css">
-
