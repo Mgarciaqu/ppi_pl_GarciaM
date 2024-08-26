@@ -1,25 +1,20 @@
 # Michael Garcia Quincos - Ingeniero de Sistemas Freelance
 
-## Información de Contacto
-- **Ubicación**: Medellín, Colombia
-- **Correo Electrónico**: [mgarciaqu@unal.edu.co](mailto:mgarciaqu@unal.edu.co)
+![Header Image](https://your-image-url.com/header-image.png) <!-- Opcional: Imagen de cabecera para un toque profesional -->
 
-## Perfil Profesional
-Soy estudiante de octavo semestre de Ingeniería de Sistemas en la Universidad Nacional de Colombia con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas. Mi experiencia práctica incluye el desarrollo de aplicaciones web utilizando **Django** para el backend y **React** para el frontend, así como la gestión de bases de datos y la implementación de soluciones en redes y telecomunicaciones. Apasionado por la tecnología y la resolución de problemas complejos, estoy buscando una oportunidad para aplicar y expandir mis conocimientos en un entorno profesional, contribuyendo activamente al éxito de la organización.
+## 👋 Bienvenido a mi perfil
 
-## Habilidades Interpersonales
-- **Comunicación Efectiva**: Hábil en la comunicación clara y precisa, asegurando que todos los miembros del equipo estén alineados con los objetivos y plazos del proyecto.
-- **Trabajo en Equipo**: Experiencia colaborando en proyectos multidisciplinarios, facilitando la coordinación entre diferentes áreas técnicas y no técnicas.
-- **Resolución de Conflictos**: Proactivo en la resolución de conflictos y adaptación a cambios dentro del entorno de trabajo.
+Soy **Michael Garcia Quincos**, estudiante de octavo semestre de Ingeniería de Sistemas en la Universidad Nacional de Colombia. Con una sólida formación en desarrollo de software, análisis de datos y administración de sistemas, estoy buscando oportunidades para aplicar y expandir mis conocimientos en el campo tecnológico.
 
-## Educación
-**Ingeniería de Sistemas**  
-Universidad Nacional de Colombia – Medellín  
-(Octavo Semestre)  
-- Focalización en desarrollo de software, redes y telecomunicaciones, bases de datos, y ciberseguridad.
-- Participación activa en proyectos de investigación y desarrollo tecnológico con un enfoque en la optimización de sistemas y la mejora continua de procesos.
+## 💼 Perfil Profesional
+Como desarrollador, tengo experiencia práctica en:
+- **Desarrollo de aplicaciones web** usando **Django** y **React**.
+- **Gestión de bases de datos** y **soluciones en redes y telecomunicaciones**.
+- Resolución de problemas complejos y optimización de sistemas.
 
-## Habilidades Técnicas
+Mi objetivo es contribuir activamente al éxito de proyectos tecnológicos y ayudar a organizaciones a alcanzar sus metas.
+
+## 🛠 Habilidades Técnicas
 - **Lenguajes de Programación**: Python, Java, C++, PHP, JavaScript
 - **Frameworks**: Django, React
 - **Bases de Datos**: PostgreSQL, MySQL
@@ -28,17 +23,34 @@ Universidad Nacional de Colombia – Medellín
 - **Sistemas Operativos**: Windows, Linux
 - **Metodologías de Trabajo**: Kanban, Agile, Scrum
 
-## Idiomas
+## 🧩 Habilidades Interpersonales
+- **Comunicación Efectiva**: Habilidad para comunicarme claramente y asegurar la alineación del equipo.
+- **Trabajo en Equipo**: Experiencia en proyectos multidisciplinarios y coordinación entre áreas técnicas y no técnicas.
+- **Resolución de Conflictos**: Proactivo en la adaptación y solución de conflictos en el entorno de trabajo.
+
+## 🎓 Educación
+**Ingeniería de Sistemas**  
+Universidad Nacional de Colombia – Medellín  
+(Octavo Semestre)  
+- Enfoque en desarrollo de software, redes y telecomunicaciones, bases de datos, y ciberseguridad.
+- Participación en proyectos de investigación y desarrollo tecnológico, centrado en la optimización y mejora de procesos.
+
+## 🌍 Idiomas
 - **Español**: Nativo
 - **Inglés**: Intermedio
 
-## Diseñado por:
-**Michael Garcia Quincos**  
-Estudiante de Ingeniería de Sistemas de la Universidad Nacional de Colombia
+## 🚀 Proyectos Destacados
+- **[Nombre del Proyecto 1]**: Breve descripción del proyecto y tu rol en él.
+- **[Nombre del Proyecto 2]**: Breve descripción del proyecto y tu rol en él.
 
-## Contacto
-- [![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/200px-Octicons-mark-github.svg.png)](https://github.com/mgarciaqu)
-- [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/200px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/michael-garcia-quincos-579355324)
-- [![Gmail](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/200px-Gmail_icon_%282020%29.svg.png)](mailto:maicolgarciaquincos@gmail.com)
-- [![WhatsApp](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/200px-WhatsApp.svg.png)](https://wa.me/+573204504857)
+## 📬 Contacto
+Puedes contactarme a través de los siguientes enlaces:
 
+- [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/100px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/michael-garcia-quincos-579355324)
+- [![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/100px-Octicons-mark-github.svg.png)](https://github.com/mgarciaqu)
+- [![Gmail](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/100px-Gmail_icon_%282020%29.svg.png)](mailto:maicolgarciaquincos@gmail.com)
+- [![WhatsApp](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/100px-WhatsApp.svg.png)](https://wa.me/+573204504857)
+
+---
+
+¡Gracias por visitar mi perfil! Estoy emocionado por la oportunidad de trabajar juntos en proyectos innovadores y desafiantes.
